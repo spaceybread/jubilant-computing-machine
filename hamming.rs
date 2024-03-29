@@ -10,7 +10,7 @@ fn check256(mut arr: [i32; 256]) -> i32 {
     return bin;
 }
 
-fn build256(mut arr: [i32; 256]) -> [i32; 256] {
+fn fix256(mut arr: [i32; 256]) -> [i32; 256] {
     let bin: i32 = check256(arr);
     if bin == 0 { 
         return arr;
@@ -42,7 +42,7 @@ fn testHamming() {
     println!("{ans}");
 
     x = build256(x);
-    ans = check256(x);
+    ans = fix256(x);
     println!("{ans}");
 }
 
