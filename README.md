@@ -1,4 +1,4 @@
-Hamming codes 
+## Hamming codes 
 
 Error checking in $2^n$ bit message packets: 
 
@@ -10,4 +10,4 @@ I did some more reading and finished the 3B1B videos on this topic and realised 
 
 - [hamming.rs](https://github.com/spaceybread/jubilant-computing-machine/blob/main/hamming.rs): a much more efficient and clean algorithm to check and fix Hamming codes for $256$-bit message blocks
 
-
+[Hamming Distance](https://github.com/spaceybread/jubilant-computing-machine/blob/main/distance): not really related to Hamming codes in any way except that they share a name but I didn't feel like making an entire new repo for such a simple script
